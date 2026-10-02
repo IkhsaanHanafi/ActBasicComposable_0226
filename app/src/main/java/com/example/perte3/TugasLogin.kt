@@ -34,5 +34,14 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
         )
+        // Lapisan 2: konten
+        Column(
+            modifier = modifier
+                .fillMaxSize()
+                .padding(top = 88.dp, bottom = 24.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Top
+        ) {
+        }
     }
 }
