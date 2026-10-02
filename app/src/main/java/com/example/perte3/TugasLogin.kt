@@ -48,6 +48,13 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.ExtraBold,
                 color = Color(0xFF1B0F0A)
             )
+            Text(
+                text = "Ini adalah halaman login,",
+                fontSize = 18.sp,
+                fontWeight = FontWeight.SemiBold,
+                color = Color(0xFF1B0F0A),
+                modifier = Modifier.padding(top = 6.dp)
+            )
         }
     }
 }
