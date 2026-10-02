@@ -55,6 +55,20 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 color = Color(0xFF1B0F0A),
                 modifier = Modifier.padding(top = 6.dp)
             )
+
+            Spacer(modifier = Modifier.height(36.dp))
+
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(110.dp)
+                    .clip(CircleShape)
+                    .background(Color.White)
+                    .border(width = 3.dp, color = Color(0xFF1B0F0A), shape = CircleShape)
+                    .padding(10.dp),
+                contentScale = ContentScale.Fit
+            )
         }
     }
 }
