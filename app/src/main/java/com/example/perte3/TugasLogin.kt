@@ -91,6 +91,21 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 color = Color.Black,
                 modifier = Modifier.padding(top = 6.dp)
             )
+
+            Spacer(modifier = Modifier.height(36.dp))
+
+// Lapisan 3: gambar bulat
+            Image(
+                painter = painterResource(id = R.drawable.akmalganteng),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(200.dp)
+                    .clip(CircleShape)
+                    .background(Color(0xFFE8EAF6))
+                    .border(width = 5.dp, color = Color.White, shape = CircleShape),
+                contentScale = ContentScale.Crop,
+                alignment = Alignment.TopCenter
+            )
         }
     }
 }
