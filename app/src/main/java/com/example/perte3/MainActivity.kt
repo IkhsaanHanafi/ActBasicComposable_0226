@@ -5,18 +5,17 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import com.example.perte3.ui.theme.Perte3Theme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            Perte3Theme {
+            MaterialTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    // Panggil composable layout utama dengan padding dari Scaffold
-                    TataLetakBoxColumnRow(
+                    TugasLogin(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
