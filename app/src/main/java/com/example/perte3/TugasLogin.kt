@@ -77,6 +77,13 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.ExtraBold,
                 color = Color(0xFFB71C1C)
             )
+            Text(
+                text = "Ikhsaan Hanafi",
+                fontSize = 24.sp,
+                fontWeight = FontWeight.ExtraBold,
+                color = Color(0xFF1B0F0A),
+                modifier = Modifier.padding(top = 6.dp)
+            )
         }
     }
 }
